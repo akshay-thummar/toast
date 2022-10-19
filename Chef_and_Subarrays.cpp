@@ -14,6 +14,8 @@ int main(){
         vector<int> v(n);
         for (int i = 0; i < n; i++)
             cin>>v[i];
+        for (int i = 0; i < n; i++)
+            cin>>v[k];
         for (int i = 0; i < v.size(); i++)
             cout<<v[i];
 
